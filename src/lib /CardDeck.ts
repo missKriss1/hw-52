@@ -13,7 +13,7 @@ class CardDeck{
                 this.deck.push(new Card(suit, rank))
             }
         }
-        console.log(this.deck);
+        //console.log(this.deck);
     }
 
     getCard(): Card | null  {
@@ -31,8 +31,8 @@ class CardDeck{
 
         for (let i = 0; i < howMany; i++) {
             const getCardPush = this.getCard();
-            console.log(getCardPush);
-            console.log(this.deck)
+            //console.log(getCardPush);
+            //console.log(this.deck)
 
             if(getCardPush !== null){
                 cards.push(getCardPush);

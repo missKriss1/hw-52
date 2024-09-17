@@ -13,9 +13,9 @@ const Cards: React.FC <Card> = ({suit, rank}) => {
         spades: '♠',
     };
 
-    console.log(suit)
-    console.log(rank)
-    console.log()
+    //console.log(suit)
+    //console.log(rank)
+    //console.log()
 
     return (
         <div>
